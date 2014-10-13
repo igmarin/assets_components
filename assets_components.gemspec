@@ -7,8 +7,8 @@ require "assets_components/version"
 Gem::Specification.new do |s|
   s.name        = "assets_components"
   s.version     = AssetsComponents::VERSION
-  s.authors     = ["Ismael G Marin C"]
-  s.email       = ["ismael.marin@gmail.com"]
+  s.authors     = ["TODO: Your name"]
+  s.email       = ["TODO: Your email"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of AssetsComponents."
   s.description = "TODO: Description of AssetsComponents."
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 4.2.0.beta2"
+  s.add_dependency "rails", "~> 4.1.6"
 
   s.add_development_dependency "sqlite3"
 end
