@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
 
-  mount AssetsComponents::Engine => "/assets_components"
+  mount AssetsComponents::Engine => "/"
+
+  root 'public#index'
 end

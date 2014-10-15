@@ -1,0 +1,61 @@
+// Buttons with background
+//-----------------------------
+//Default Button
+.btn-default-color
+  @include button-base($buttonPrimaryBaseColor,$colorWhite)
+  @include animate-all(.2s)
+.btn-default
+  @include button-base($buttonBaseColor,$colorWhite)
+  @include animate-all(.2s)
+//Blue Button
+.btn-blue
+  @include button-base($buttonBlueColor,$colorWhite)
+  @include animate-all(.2s)
+//Success Button
+.btn-success
+  @include button-base($buttonGreenColor,$colorWhite)
+  @include animate-all(.2s)
+//Warning Button
+.btn-warning
+  @include button-base($buttonYellowColor,$colorWhite)
+  @include animate-all(.2s)
+//Cancel Button
+.btn-cancel
+  @include button-base($buttonRedColor,$colorWhite)
+  @include animate-all(.2s)
+
+// Buttons without background
+//-----------------------------
+//Default Button
+.btn-default-color-un
+  @include button-base-un($buttonPrimaryBaseColor)
+  @include animate-all(.2s)
+.btn-default-un
+  @include button-base-un($buttonBaseColor)
+  @include animate-all(.2s)
+//Blue Button
+.btn-blue-un
+  @include button-base-un($buttonBlueColor)
+  @include animate-all(.2s)
+//Success Button
+.btn-success-un
+  @include button-base-un($buttonGreenColor)
+  @include animate-all(.2s)
+//Warning Button
+.btn-warning-un
+  @include button-base-un($buttonYellowColor)
+  @include animate-all(.2s)
+//Cancel Button
+.btn-cancel-un
+  @include button-base-un($buttonRedColor)
+  @include animate-all(.2s)
+
+//Disabled Buttons
+//-----------------------------
+.btn-disabled
+  @include button-base-dis($colorDisabled,$colorGray)
+  @include animate-all(.2s)
+
+.btn-disabled-un
+  @include button-base-un-dis($colorDisabled)
+  @include animate-all(.2s)

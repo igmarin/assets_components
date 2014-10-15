@@ -12,3 +12,7 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+#Assets
+gem 'bourbon'
+gem 'neat'
